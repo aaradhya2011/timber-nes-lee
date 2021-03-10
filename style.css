@@ -1,0 +1,52 @@
+body
+{
+    text-align: center;
+        margin:0;
+    padding-top: 800px;
+}
+.profile{
+    width: 175px;
+        margin-bottom: 50px;
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: black;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#fc036b 0% ,#8c00ff 100%);
+    display: table;
+    z-index: 9;
+    width: 100%;
+        height:100%;
+}
+.links
+{
+    float:left;
+    color: black;
+    padding-top: 5px;
+   padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: fantasy;
+    font-size: 25px;
+}
+.menu
+{
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links:hover
+{
+    background-color: dodgerblue;
+}
